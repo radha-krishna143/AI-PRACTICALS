@@ -1,0 +1,23 @@
+# Python and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter temporary data
+.ipynb_checkpoints/
+
+# Local configuration / secrets
+.env
+.env.*
+!.env.example
+
+# OS and editor generated files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Miscellaneous build artifacts
+*.log
